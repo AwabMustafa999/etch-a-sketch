@@ -2,11 +2,24 @@
 html {
     box-sizing: border-box;
     padding: 0 ;
-    margin: 0
+    margin: 0;
+    background-color: #040faa1c;
 }
-.header {
-text-align: center;
 
+
+@font-face {
+font-family: 'lovelyFont';
+src: url('fonts/lovely_font.otf');  
+
+
+
+}
+
+.header {
+  text-align: center;
+  font-family: 'lovelyFont';
+  font-size: 51px;
+  padding-top: 20px;
 }
 .draw-area {
 width: 500px;
@@ -47,7 +60,7 @@ display: grid;
     width: 25px;
     height: 25px;
     border-radius: 50%; 
-    background: #04AA6D;
+    background: #040faa1c;
     cursor: pointer;
   }
   
